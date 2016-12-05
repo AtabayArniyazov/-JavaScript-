@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+
+a.expand {
+	width: 90px;
+	display: block;
+	margin: 10px 0 0;
+}
+
+a.expand:hover {
+	height: 500px;
+}
+
+.wrapper {
+	min-width: 300px;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 24px;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #99ccff;
+	padding-top: 10px;
+	color: blue;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 150px solid #ffff99;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	font-size: 16px;
+	line-height: 22px;
+	padding: 0 20px;
+	padding-top: 20px;
+	background-image: url(..//pictures/ball.png);
+	background-position: right;
+	background-repeat: repeat-y;
+}
+
+.content h1 {
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content img {
+	float: left;
+	padding-right: 10px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 150px;
+	position: relative;
+	background: #ffff99;
+	left: -150px;
+}
+
+.left-sidebar h3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.left-sidebar ul {
+	font-size: 14px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.left-sidebar a:hover {
+	color: red;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 35px;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #99ccff;
+	padding-top: 15px;
+	color: blue;
+}

@@ -1,0 +1,1 @@
+http://fe.it-academy.by/Examples/test_JS.html
